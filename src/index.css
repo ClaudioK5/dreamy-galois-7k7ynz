@@ -1,0 +1,259 @@
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  min-height: 100dvh;
+  padding: 10px;
+  gap: 25px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100dvh;
+  padding: 10px;
+}
+
+.center-box {
+  width: 94%;
+  margin: 0 auto;
+  justify-content:center;
+  background: linear-gradient(to bottom, #0e0e0e, #272727);
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  box-sizing: border-box;
+  height: auto;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Arial";
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.center-box2 {
+  width: 94%;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #0e0e0e, #272727);
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  box-sizing: border-box;
+  height: auto;
+  border-radius: 20px;
+  text-align: right;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-family: "Arial";
+  margin-top: 35px;
+  margin-bottom: 35px;
+
+
+}
+
+.center-box2 h2 {
+
+  font-family: Arial, sans-serif;
+  font-size: 38px;
+  margin-rgb(255, 255, 255) 60px;
+  color: #f0bd13;
+  text-align:center;
+  line-height: 1.6;
+  margin-left: 100px;
+}
+
+
+.small-box {
+  width: 25%;
+  min-height:810px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: #000000;
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  height: 30%;
+  border-radius: 15px;
+  text-align: center;
+  font-family: "Arial";
+}
+
+.small-box img {
+  margin-top: 10px;
+  width:90%;
+ 
+  object-fit:cover;
+}
+
+.price-box {
+  margin-top: 19px;
+  width: 50%;
+  background: #363444;
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  height: 50px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Arial";
+  padding: 22px;
+}
+
+
+body {
+  background: linear-gradient(to bottom, #646464, #000000);
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin-rgb(255, 255, 255) 60px;
+  color: #fff;
+  text-align:center;
+  line-height: 1.6;
+  padding:10px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  margin-rgb(255, 255, 255) 60px;
+  color: #f0bd13;
+  text-align:center;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 41px;
+  margin-rgb(255, 255, 255) 60px;
+  color: #f0bd13;
+  text-align:center;
+  line-height: 1.6;
+}
+
+
+
+button {
+  width: 70%;
+  height: 40px;
+  background-color: #f0bd13;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Arial";
+  font-size: 19px;
+  margin-bottom:10px;
+  margin-top:15px;
+}
+
+button:hover {
+  background-color: #cfcd3d;
+}
+
+
+
+button2 {
+  width: 12%;
+  height: 40px;
+  background-color: #f0bd13;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Arial";
+  font-size: 19px;
+  margin-bottom:10px;
+  margin-top:15px;
+  text-align: center;
+  margin-right:25px;
+}
+
+button2:hover {
+  background-color: #cfcd3d;
+}
+
+.blur-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(5px);
+  z-index: 10;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  padding: 20px;
+  z-index: 20;
+  box-shadow: 0px, 0px 10px rgba(0,0,0,0.3)
+  border-radius: 8px;
+
+}
+
+.popup p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin-rgb(255, 255, 255) 60px;
+  color: #000;
+  text-align:center;
+  line-height: 1.6;
+  padding:10px;
+  margin-bottom: 5px;
+}
+
+.popup-container {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.popup2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  padding: 20px;
+  z-index: 20;
+  box-shadow: 0px, 0px 10px rgba(0,0,0,0.3)
+  border-radius: 8px;
+
+}
+
+.popup2 p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin-rgb(255, 255, 255) 60px;
+  color: #000;
+  text-align:center;
+  line-height: 1.6;
+  padding:10px;
+  margin-bottom: 5px;
+}
+
+.popup2-container {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
